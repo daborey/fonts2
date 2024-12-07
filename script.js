@@ -2,12 +2,54 @@ const fontContainer = document.getElementById("font-container");
 
 // List of your 5 font files
 const fonts = [
-  "akbalthomfreehand.ttf",
-  "akbalthomhighschool.ttf",
-  "akbalthomhighschoolframe.ttf",
-  "akbalthomhighschoolfun.ttf",
-  "akbalthomkbach.ttf"
-];
+    "akbalthomfreehand.ttf",
+    "akbalthomhighschool.ttf",
+    "akbalthomhighschoolframe.ttf",
+    "akbalthomhighschoolfun.ttf",
+    "akbalthomkbach.ttf",
+    "akbalthomkhmerbasic.ttf",
+    "akbalthomkmergothic.ttf",
+    "akbalthomkmerler.ttf",
+    "akbalthomkmerlight.ttf",
+    "akbalthomkmennew.ttf",
+    "akbalthomkorea.ttf",
+    "akbalthomnagabold.ttf",
+    "akbalthomnrb.ttf",
+    "akbalthomseoul.ttf",
+    "akbalthomsuperhero.ttf",
+    "akbalthomsuperherokh.ttf",
+    "angkor.ttf",
+    "antassom.ttf",
+    "angtasom.ttf",
+    "antioch.ttf",
+    "aphireak1.ttf",
+    "baiduck.ttf",
+    "battambangbold.ttf",
+    "battambangregular.ttf",
+    "bayon.ttf",
+    "bokor.ttf",
+    "chantresuilow.ttf",
+    "chantresuinew.ttf",
+    "chantreau.ttf",
+    "chelan.ttf",
+    "contentbold.ttf",
+    "contentregular.ttf",
+    "dangrek.ttf",
+    "daunkeo.ttf",
+    "daunpv.ttf",
+    "daunsok.ttf",
+    "daunteav.ttf",
+    "dauntep.ttf",
+    "dhrongdomgrey.ttf",
+    "fasthandregular.ttf",
+    "freehand.ttf",
+    "hanuman.ttf",
+    "hanumanb.ttf",
+    "ikampuchea001c'hrov.ttf",
+    "ikampuchea002khmerfeeling.ttf",
+    "isethfirst.ttf"
+  ];
+  
 
 // Khmer text for preview
 const previewText = "សួស្តីកម្ពុជា";
