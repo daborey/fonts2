@@ -1,98 +1,35 @@
-const fontContainer = document.getElementById("font-container");
+const fontContainer = document.getElementById('fontContainer'); // The div where fonts will be displayed
 
-// List of your 5 font files
-const fonts = [
-    "akbalthomfreehand.ttf",
-    "akbalthomhighschool.ttf",
-    "akbalthomhighschoolframe.ttf",
-    "akbalthomhighschoolfun.ttf",
-    "akbalthomkbach.ttf",
-    "akbalthomkhmerbasic.ttf",
-    "akbalthomkmergothic.ttf",
-    "akbalthomkmerler.ttf",
-    "akbalthomkmerlight.ttf",
-    "akbalthomkmennew.ttf",
-    "akbalthomkorea.ttf",
-    "akbalthomnagabold.ttf",
-    "akbalthomnrb.ttf",
-    "akbalthomseoul.ttf",
-    "akbalthomsuperhero.ttf",
-    "akbalthomsuperherokh.ttf",
-    "angkor.ttf",
-    "antassom.ttf",
-    "angtasom.ttf",
-    "antioch.ttf",
-    "aphireak1.ttf",
-    "baiduck.ttf",
-    "battambangbold.ttf",
-    "battambangregular.ttf",
-    "bayon.ttf",
-    "bokor.ttf",
-    "chantresuilow.ttf",
-    "chantresuinew.ttf",
-    "chantreau.ttf",
-    "chelan.ttf",
-    "contentbold.ttf",
-    "contentregular.ttf",
-    "dangrek.ttf",
-    "daunkeo.ttf",
-    "daunpv.ttf",
-    "daunsok.ttf",
-    "daunteav.ttf",
-    "dauntep.ttf",
-    "dhrongdomgrey.ttf",
-    "fasthandregular.ttf",
-    "freehand.ttf",
-    "hanuman.ttf",
-    "hanumanb.ttf",
-    "ikampuchea001c'hrov.ttf",
-    "ikampuchea002khmerfeeling.ttf",
-    "isethfirst.ttf"
-  ];
-  
+fonts.forEach((font) => {
+    // Extract the font name (without extension)
+    const fontName = font.replace(/\.[^/.]+$/, '');
 
-// Khmer text for preview
-const previewText = "សួស្តីកម្ពុជា";
+    // Create a style element to define the font-face
+    const style = document.createElement('style');
+    style.textContent = `
+        @font-face {
+            font-family: '${fontName}';
+            src: url('./fonts/${font}');
+        }
+    `;
+    document.head.appendChild(style);
 
-// Dynamically load and display fonts
-fonts.forEach((fontFile, index) => {
-  // Generate a unique font-family name
-  const fontName = `Font${index + 1}`;
+    // Create a div to showcase the font
+    const fontDiv = document.createElement('div');
+    fontDiv.style.fontFamily = fontName;
+    fontDiv.style.marginBottom = '20px';
+    fontDiv.style.padding = '10px';
+    fontDiv.style.border = '1px solid #ccc';
+    fontDiv.style.borderRadius = '5px';
+    fontDiv.style.textAlign = 'center';
+    fontDiv.style.backgroundColor = '#f9f9f9';
 
-  // Create a @font-face rule
-  const styleSheet = document.styleSheets[0];
-  const fontFaceRule = `
-    @font-face {
-      font-family: '${fontName}';
-      src: url('fonts/${fontFile}') format('truetype');
-    }
-  `;
-  styleSheet.insertRule(fontFaceRule, styleSheet.cssRules.length);
+    // Add font name and sample text
+    fontDiv.innerHTML = `
+        <p style="font-size: 20px; margin: 5px 0;">${fontName}</p>
+        <p style="font-size: 24px; margin: 5px 0;">សួស្តីកម្ពុជា</p>
+        <a href="./fonts/${font}" download style="text-decoration: none; color: white; background-color: #007bff; padding: 5px 10px; border-radius: 3px;">Download</a>
+    `;
 
-  // Create a font card
-  const fontCard = document.createElement("div");
-  fontCard.className = "font-card";
-
-  // Font title
-  const fontTitle = document.createElement("h2");
-  fontTitle.textContent = fontFile;
-
-  // Font preview
-  const fontPreview = document.createElement("span");
-  fontPreview.textContent = previewText;
-  fontPreview.style.fontFamily = fontName;
-
-  // Download link
-  const downloadLink = document.createElement("a");
-  downloadLink.href = `fonts/${fontFile}`;
-  downloadLink.textContent = "Download";
-  downloadLink.download = fontFile;
-
-  // Append elements to the card
-  fontCard.appendChild(fontTitle);
-  fontCard.appendChild(fontPreview);
-  fontCard.appendChild(downloadLink);
-
-  // Append the card to the container
-  fontContainer.appendChild(fontCard);
+    fontContainer.appendChild(fontDiv);
 });

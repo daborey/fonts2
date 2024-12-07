@@ -1,77 +1,178 @@
 /* General styles for the page */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+  font-family: 'Roboto', sans-serif; /* Modern font for a clean look */
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Subtle background color */
+  color: #333;
+  line-height: 1.6; /* Improve readability */
+}
+
+header {
+  background-color: #388e3c; /* Slightly darker green for depth */
+  color: white;
+  text-align: center;
+  padding: 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+}
+
+header h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+header p {
+  font-size: 18px;
+  margin: 10px 0 0;
+}
+
+/* Font container */
+#fontContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+/* Font card */
+.font-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures balanced spacing */
+}
+
+.font-card:hover {
+  transform: translateY(-5px); /* Hover effect for interactivity */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* More prominent shadow on hover */
+}
+
+.font-card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.font-card span {
+  font-size: 26px; /* Increased font size for better visibility */
+  display: block;
+  margin: 30px 0; /* Adjust space between font name and Khmer text */
+  color: #444;
+}
+
+.font-card a {
+  text-decoration: none;
+  color: #388e3c; /* Slightly darker green for consistency */
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.font-card a:hover {
+  text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #388e3c;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Donate section */
+.donate-section {
+  text-align: center;
+  padding: 30px;
+  background-color: #ffffff;
+  border-top: 2px solid #ddd;
+  margin-top: 20px;
+}
+
+.donate-section h3 {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.donate-section p {
+  font-size: 1em;
+  color: #555;
+  margin: 5px 0;
+}
+
+.qr-code-container {
+  margin: 20px auto;
+}
+
+.qr-code {
+  max-width: 150px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added shadow for integration */
+}
+
+.disclaimer {
+  font-size: 0.9em;
+  color: #888;
+  margin-top: 15px;
+}
+
+/* Responsive styles */
+@media (min-width: 600px) {
+  #fontContainer .font-card {
+    width: 45%; /* Two columns on tablets */
   }
-  
-  header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 20px;
+}
+
+@media (min-width: 1024px) {
+  #fontContainer .font-card {
+    width: 30%; /* Three columns on desktops */
   }
-  
-  header h1 {
-    font-size: 28px;
-    margin: 0;
-  }
-  
-  header p {
-    font-size: 16px;
-    margin: 10px 0 0;
-  }
-  
-  #font-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
-    justify-content: center;
-  }
-  
+}
+
+@media (max-width: 600px) {
   .font-card {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-    width: 250px;
+    width: 100%; /* Stack cards vertically on mobile */
+    margin-bottom: 20px;
   }
-  
-  .font-card h2 {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  
-  .font-card span {
-    font-size: 24px;
-    display: block;
-    margin: 15px 0;
-    color: #444;
-  }
-  
-  .font-card a {
-    text-decoration: none;
-    color: #4CAF50;
-    font-weight: bold;
-    font-size: 14px;
-  }
-  
-  .font-card a:hover {
-    text-decoration: underline;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-  }
-  
+}
+
+/* Additional Styles for Social Media Links */
+.social-links {
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}

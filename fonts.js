@@ -1,4 +1,4 @@
-export const fonts = [
+const fonts = [
   "akbalthomfreehand.ttf",
   "akbalthomhighschool.ttf",
   "akbalthomhighschoolframe.ttf",
