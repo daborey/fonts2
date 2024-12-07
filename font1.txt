@@ -1,0 +1,281 @@
+#with ttf
+AKbalthomFreehand.ttf
+Chantrea SRuiLow.ttf
+KhBLBrushHand.ttf
+AKhmerBeginner.ttf
+KHMERMEF1.ttf
+KhmerPenSvR.ttf
+AKbalthomHighSchool.ttf
+Chantrea SRuiNew.ttf
+KhBLLazyDistorted.ttf
+Khmerchamnanit.ttf
+KHMERMEF2.ttf
+Khmer Pen Teu.ttf
+AKbalthomHighSchoolFrame.ttf
+Chantreall.ttf
+KhBLLazyOutline.ttf
+KhmerCNBattambang.ttf
+KhmerMoul.ttf
+Khmer RotanakAngkor Demo02.ttf
+AKbalthomHighSchoolFun.ttf
+Chenla.ttf
+KhBLLazySmooth.ttf
+KhmerCNBone.ttf
+KhmerMuol.ttf
+Khmer Rotanak TraiyB.ttf
+AKbalthom Kbach.ttf
+ContentBold.ttf
+KhBokor.ttf
+KhmerCNEkPhnom.ttf
+KhmerNagari.ttf
+khmers1.volt.ttf
+AAKbalthomKhmerBasic.ttf
+ContentRegular.ttf
+KhCNStar.ttf
+KhmerCNhand.ttf
+KhmerOS.ttf
+khmers2.volt.ttf
+AKbalthomKhmerGothic.ttf
+Dangrek.ttf
+KhContent.ttf
+KhmerCNKampingpouy.ttf
+KhmerOSApsra.ttf
+khmers3.volt.ttf
+AKbalthom KhmerHand.ttf
+Daunkeo.ttf
+KhDangrek.ttf
+KhmerCNKamRieng.ttf
+KhmerOSbattambang.ttf
+khmers4.volt.ttf
+AKbalthomKhmerLer.ttf
+DaunPov.ttf
+KhDigitalThom.ttf
+KhmerCNKamRiengV2.ttf
+KhmerOSbokor.ttf
+khmerSamadyKSv2.ttf
+AKbalthom KhmerLight.ttf
+Daunsok.ttf
+KhFasthand.ttf
+KhmerCNKselus.ttf
+KhmerOSclassic.ttf
+khmerSavuth.ttf
+AKbalthom KhmerNew.ttf
+Daun Teav.ttf
+KhFreehand.ttf
+KhmerCNlazywrite.ttf
+KhmerOScontent.ttf
+khmerSavuthBrush.ttf
+AKBALTHOM Korea.TTF
+DaunTep.ttf
+khitkonkhmer.ttf
+KhmerCNOtaki.ttf
+KhmerOSfasthand.ttf
+Khmer SavuthPen.ttf
+AKbalthomNagaBold.ttf
+DHRongdomrey.ttf
+KhitseombelJrungbunly.ttf
+KhmerCNPhnom Sampao.ttf
+KhmerOSfreehand.ttf
+Khmer SavuthPen2.ttf
+AKbalthomReam.ttf
+FasthandRegular.ttf
+khitsupport4kh.ttf
+KhmerCNPoipet.ttf
+KhmerOSkiensvay.ttf
+khmerSavuthRomeas.ttf
+AKbalthomSeoul.ttf
+Freehand.ttf
+Khirunghom.ttf
+KhmerCNPreykonkla.ttf
+KhmerOSmetalchrieng.ttf
+KhmerSemSarun.ttf
+AKbalthomSuperhero.ttf
+Hanuman.ttf
+KhKakadaBati.ttf
+KhmerCNSamlot.ttf
+KhmerOSmuol.ttf
+KhmerSerif.ttf
+AKbalthomSuperheroKH.ttf
+Hanumanb.ttf
+KhKangrey.ttf
+KhmerCNStar.ttf
+KhmerOSmuollight.ttf
+Khmersexy.ttf
+AKBALTHOMTNRB.TTF
+AiKampuchea0010'Chrov.ttf
+khKompong Chhnang.ttf
+AKhmerCNStueng Songke.ttf
+KhmerOSmuolpali.ttf
+KhmerSharp.ttf
+Angkor.ttf
+iKampuchea002KhmerFeeling.ttf
+KhKompong ThomBunlyBeta.ttf
+KhmerCNThmor Kol.ttf
+KhmerOSniroth.ttf
+KhmerSNKampongcham.ttf
+Ang Taso.ttf
+SethFirst.ttf
+KhKoulen.ttf
+KhmerDLStationTNRB.ttf
+KhmerOSsiemreap.ttf
+KhmerSNKampot.ttf
+Ang Tasom.ttf
+iSethPi.ttf
+KhKoulenL.ttf
+KhmerDonBosco.ttf
+KhmerOSsys.ttf
+Khmer Telecommunication.ttf
+Antioch Text.ttf
+iSethZ11.ttf
+KHMCHANTHA.ttf
+KhmerElement.ttf
+A3 KhmerOSwatphnom.ttf
+khmervictoryajrung.ttf
+Aaphireak1.ttf
+KantumruyBold.ttf
+AKHMCHRIENG1.ttf
+khmerikhmerstudents.ttf
+KhmerPailin.ttf
+khmervictoryatreykrim.ttf
+BaidukOT.ttf
+KantumruyLight.ttf
+Khmer.ttf
+KhmerKCSvayUni.ttf
+KhmerPenChantrea.ttf
+KhMetalChrieng.ttf
+Battambang Bold.ttf
+KantumruyRegular.ttf
+Khmer Angkulilekav2.ttf
+KHMERKEP.ttf
+KhmerPenEng.ttf
+KhMithSalaPaliv2.ttf
+Battambang Regular.ttf
+Kdam ThmorRegular.ttf
+KhmerBanteaySrey.ttf
+KhmerKhaolDang.ttf
+KhmerPenKang.ttf
+ΚΗΜΚΑΜΡΟNGTRACH.ttf
+Bayon.ttf
+KDJayavarman1.ttf
+KhmerBanteay SreyB.ttf
+khmerM1.volt.ttf
+KhmerPenSurin.ttf
+ΑΚΗΜΚΑΜPOT.ttf
+Bokor.ttf
+KhBattambang.ttf
+KhmerBanteay SreyL.ttf
+khmerM2.volt.ttf
+Khmer PenSvayreing.ttf
+KHMKOLAB.ttf
+
+#without ttf
+AKbalthomFreehand
+Chantrea SRuiLow
+KhBLBrushHand
+AKhmerBeginner
+KHMERMEF1
+KhmerPenSvR
+AKbalthomHighSchool
+Chantrea SRuiNew
+KhBLLazyDistorted
+Khmerchamnanit
+KHMERMEF2
+Khmer Pen Teu
+AKbalthomHighSchoolFrame
+Chantreall
+KhBLLazyOutline
+KhmerCNBattambang
+KhmerMoul
+Khmer RotanakAngkor Demo02
+AKbalthomHighSchoolFun
+Chenla
+KhBLLazySmooth
+KhmerCNBone
+KhmerMuol
+Khmer Rotanak TraiyB
+AKbalthom Kbach
+ContentBold
+KhBokor
+KhmerCNEkPhnom
+KhmerNagari
+khmers1.volt
+AAKbalthomKhmerBasic
+ContentRegular
+KhCNStar
+KhmerCNhand
+KhmerOS
+khmers2.volt
+AKbalthomKhmerGothic
+Dangrek
+KhContent
+KhmerCNKampingpouy
+KhmerOSApsra
+khmers3.volt
+AKbalthom KhmerHand
+Daunkeo
+KhDangrek
+KhmerCNKamRieng
+KhmerOSbattambang
+khmers4.volt
+AKbalthomKhmerLer
+DaunPov
+KhDigitalThom
+KhmerCNKamRiengV2
+KhmerOSbokor
+khmerSamadyKSv2
+AKbalthom KhmerLight
+Daunsok
+KhFasthand
+KhmerCNKselus
+KhmerOSclassic
+khmerSavuth
+AKbalthom KhmerNew
+Daun Teav
+KhFreehand
+KhmerCNlazywrite
+KhmerOScontent
+khmerSavuthBrush
+AKBALTHOM Korea
+DaunTep
+khitkonkhmer
+KhmerCNOtaki
+KhmerOSfasthand
+Khmer SavuthPen
+AKbalthomNagaBold
+DHRongdomrey
+KhitseombelJrungbunly
+KhmerCNPhnom Sampao
+KhmerOSfreehand
+Khmer SavuthPen2
+AKbalthomReam
+FasthandRegular
+khitsupport4kh
+KhmerCNPoipet
+KhmerOSkiensvay
+khmerSavuthRomeas
+AKbalthomSeoul
+Freehand
+Khirunghom
+KhmerCNPreykonkla
+KhmerOSmetalchrieng
+KhmerSemSarun
+AKbalthomSuperhero
+Hanuman
+KhKakadaBati
+KhmerCNSamlot
+KhmerOSmuol
+KhmerSerif
+AKbalthomSuperheroKH
+Hanumanb
+KhKangrey
+KhmerCNStar
+KhmerOSmuollight
+Khmersexy
+AKBALTHOMTNRB
+AiKampuchea0010'Chrov
+khKompong Chhnang
+AKhmerCNStueng Songke
+KhmerOSmuolpali
+KhmerSharp
+Angkor
+iKampuchea

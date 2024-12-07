@@ -1,0 +1,77 @@
+/* General styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 16px;
+    margin: 10px 0 0;
+  }
+  
+  #font-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .font-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+  }
+  
+  .font-card h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .font-card span {
+    font-size: 24px;
+    display: block;
+    margin: 15px 0;
+    color: #444;
+  }
+  
+  .font-card a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .font-card a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
