@@ -33,3 +33,12 @@ fonts.forEach((font) => {
 
     fontContainer.appendChild(fontDiv);
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const loading = document.getElementById("loading");
+    
+    document.fonts.ready.then(() => {
+      loading.style.display = "none";
+    });
+  });
+  
