@@ -1,0 +1,18 @@
+-----------------------------------------------------------------------
+(to see all changes before make decision local over remote or remote over local)
+git fetch origin
+git diff origin/main
+-----------------------------------------------------------------------
+
+----------------------------------------------
+if I choose local over remote
+git fetch origin
+git add .
+git commit -m "update v14"
+git push origin main --force
+----------------------------------------------
+if I choose remote over local
+git fetch origin
+git reset --hard origin/main
+----------------------------------------------
+
